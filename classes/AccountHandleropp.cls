@@ -8,7 +8,7 @@ public class AccountHandleropp {
             opportunity opp = new opportunity();
             opp.AccountId=aa.id;
             opp.Name=aa.Name+'opportunity';
-           // opp.StageName='Prospecting';
+            opp.StageName='Prospecting';
             opp.CloseDate=system.today().addmonths(1);
             opty.add(opp);
         }
